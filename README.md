@@ -5,7 +5,7 @@
 
 This example streams and indexes data from Satori's cryptocurrency-market-data channel. From there you can analyze the data with SQL or put a Superset visualization layer on top.
 
-If you're lazy just [watch the video](https://youtu.be/pvtdvoZ83uk).
+For reference: [watch the video](https://youtu.be/pvtdvoZ83uk).
 
 ## Pre-requisites
 
@@ -28,7 +28,4 @@ Python, Druid and Kafka are required. Hive is optional but worth the visit. Hort
 
 02suggest_supervisor_spec.py will peek into Kafka and suggest a supervisor spec for you. The spec requires a bit of editing but helps you get started. You should be able to bring in any data source you like from Satori if you favor something else.
 
-## Fun Fact
 
-Github projects that use emojis in their descriptions get more stars for no good reason.
-# druid-satori-demo
